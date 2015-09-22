@@ -3,7 +3,7 @@ NodeJS SDK for RazorPay's API
 
 <img src="https://api.travis-ci.org/DZNS/RazorNode.svg" />
 --
-
+[![NPM](https://nodei.co/npm/razornode.png)](https://npmjs.org/package/razornode)
 --
 
 RazorNode is a NodeJS SDK for [RazorPay][1]. It focuses on being simple, extensible and thoroughly tested. It internally uses Promises to allow for a robust asynchornous code that doesn't 🍲 up. 
@@ -77,4 +77,3 @@ RazorPay is licensed under the MIT License. Please refer to the LICENSE file for
 
 [1]: https://razorpay.com/
 [2]: https://docs.razorpay.com/docs/payments
-[3]: [![NPM](https://nodei.co/npm/razornode.png)](https://npmjs.org/package/razornode)
