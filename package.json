@@ -5,7 +5,8 @@
   "main": "razornode.js",
   "scripts": {
     "build": "babel ./lib --out-dir ./ -x '.es6'",
-    "test": "./node_modules/mocha/bin/mocha ./test/test.js"
+    "test-local": "./node_modules/mocha/bin/mocha ./test/test.js",
+    "test": "/home/travis/.nvm/versions/node/v0.12.7/lib/node_modules/mocha/bin/mocha ./test/test.js"
   },
   "repository": {
     "type": "git",
