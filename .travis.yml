@@ -3,6 +3,7 @@ node_js:
 - '0.12'
 before_install:
 - npm install
+- npm install -g mocha
 env:
   global:
   - secure: DcHtw/32GO1kkHBlGIkD1pXUeq+vOLjxHqBxrg0Ve4WfZIQexUsvf9Z9Nfhj9vEbMz5mDRHP/tGrjitWMinOqeinSBgmAA19XmOPbfDVi/mErLP+dCeyyxA+RnobkrKVaKBrog7fTzs/vDLzWNcachZniHSTwsRtCA2xvQSXBLLLJ1025rq+XDdbZJGSIhBZNzoxEofElj/PYqOxsbBVlwwQ8MTx7qjSTxsTnTeetA/6wS36vTsi3KUPqjL2nt/RWb6P8fN2Hg+OFOWW2aS8QPbcVa/zP90j6xF8qaf4CUeAYp+grW/jSkhp5q/FHk+TTi0tyC4/tFi/edKsmkxu0hydQKP3It6HMDwUiGxxC7NGgMWyJC6sxdrwsXMpQnljfhl2NzJHiQzirtdHq2cMJTjpsVCRKzAsELyF6TunXM/1FpXZPwgEPBORefK3vINIv+PE1yqMRWunjftbEatq1WQKACE5FFdjxe9GdqxAXa82zFD1vD3A/Z7VJKIPZ1bRCD6uB4oDW3haR6SdSWGZQE54rdjNFh8O7XTZ4cJQyt6Tm0+jSiDmZY6vgY7x/1bGfRlBsV++a0+GRL8dRjbV9FMLrhOyQfKka3lopNr5pMw7vFYvjEwoSJvekwV6GNKZ5lM7oM9x7mf9KLkbwt5SSz726t9vVu+MbXkUL01LOME=
