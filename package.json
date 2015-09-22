@@ -1,0 +1,33 @@
+{
+  "name": "razornode",
+  "version": "1.0.0",
+  "description": "NodeJS SDK for RazorPay's API",
+  "main": "razornode.js",
+  "scripts": {
+    "build": "babel ./lib --out-dir ./ -x '.es6'",
+    "test": "./node_modules/mocha/bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZNS/RazorNode.git"
+  },
+  "keywords": [
+    "razor",
+    "pay",
+    "payment",
+    "gateway",
+    "india",
+    "sdk",
+    "api"
+  ],
+  "author": "Dezine Zync Studios LLP. (Nikhil Nigade)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DZNS/RazorNode/issues"
+  },
+  "homepage": "https://github.com/DZNS/RazorNode#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "underscore": "^1.8.3"
+  }
+}
