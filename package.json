@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel ./lib --out-dir ./ -x '.es6'",
     "test-local": "./node_modules/mocha/bin/mocha ./test/test.js",
-    "test": "/home/travis/.nvm/versions/node/v0.12.7/lib/node_modules/mocha/bin/mocha ./test/test.js"
+    "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/DZNS/RazorNode#readme",
   "dependencies": {
-    "q": "^1.4.1",
-    "underscore": "^1.8.3"
+    
   }
 }
