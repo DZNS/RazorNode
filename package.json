@@ -1,6 +1,6 @@
 {
   "name": "razornode",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "NodeJS SDK for RazorPay's API",
   "main": "razornode.js",
   "scripts": {
