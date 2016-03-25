@@ -1,12 +1,13 @@
 # RazorNode
-A dependancy free NodeJS SDK and Webhooks Handler for RazorPay's API
+
+A dependancy free NodeJS SDK and Webhooks Handler for Razorpay's API
 
 <img src="https://api.travis-ci.org/DZNS/RazorNode.svg" />
 --
 [![NPM](https://nodei.co/npm/razornode.png)](https://npmjs.org/package/razornode)
 --
 
-RazorNode is a NodeJS SDK for [RazorPay][1]. It focuses on being simple, extensible and thoroughly tested. It internally uses Promises to allow for a robust asynchornous code that doesn't 🍲 up. 
+RazorNode is a NodeJS SDK for [Razorpay][1]. It focuses on being simple, extensible and thoroughly tested. It internally uses Promises to allow for a robust asynchornous code that doesn't 🍲 up. 
 
 ### Install all the Razors
 
@@ -28,10 +29,10 @@ instance.getPayments("2015-09-01", "2015-09-30")
 })
 
 ````  
-As you can see, we're pulling in the key and secret of your RazorPay account from the environment variables. You're free to set things up as per your preference, but this seems to be the recommended way (by some Javascript Dude, so don't quote me on it 😉)
+As you can see, we're pulling in the key and secret of your Razorpay account from the environment variables. You're free to set things up as per your preference, but this seems to be the recommended way (by some Javascript Dude, so don't quote me on it 😉)
 
 -- 
-RazorPay recently announced webhooks support which is currently in BETA. At the moment, only one event is supported. As new events become supported, I'll update RazorNode.
+Razorpay recently announced webhooks support which is currently in BETA. At the moment, only one event is supported. As new events become supported, I'll update RazorNode.
 
 At the moment, only the "authorized" event is supported. Visit https://dashboard.razorpay.com/#/app/webhooks to setup your webhooks.
 
@@ -85,7 +86,7 @@ APIs supported by RazorNode: 6
 ### Author's Notes
 - ~~RazorNode is written in ES6. It's currently transpiled into ES5 for supporting `0.12.x`. At some point, I'll remove the transpiled files from the repo and change things to use the ES6 files. However, if you'd like to keep using transpiled versions, simply install the `babel-cli` and run `npm run build`.~~
 - RazorNode is now completely based on the ES6 syntax. NodeJS 5.x is recommended.
-- RazorNode is a 3rd party implementation. I'm a RazorPay customer. I do not work for or at RazorPay and I'm in no way affiliated with them. 
+- RazorNode is a 3rd party implementation. I'm a Razorpay customer. I do not work for or at Razorpay and I'm in no way affiliated with them. 
 
 ### Feature Requests, Issues & Pull Requests
 - If you'd like to implement new things or tackle todos, please fork, edit and send a pull request. Everytime you help me tick off a todo, you earn a 🍪 point.
@@ -99,7 +100,7 @@ APIs supported by RazorNode: 6
 - [x] get rid of all dependencies  
 
 ### License
-RazorPay is licensed under the MIT License. Please refer to the LICENSE file for more information.
+RazorNode is licensed under the MIT License. Please refer to the LICENSE file for more information.
 
 [1]: https://razorpay.com/
 [2]: https://docs.razorpay.com/docs/payments
