@@ -187,8 +187,8 @@ APIs supported by RazorNode: 6
 - Please avoid directly emailing me or any of my colleagues asking when things will progress. We work on Open-source projects as time permits. So I request you to be patient with us.
 
 ### Contributors
-- [Nikhil Nigade](https://github.com/dezinezync, target="_blank") (core module)
-- [Selva Ganesh](https://github.com/selvagsz, target="_blank") (initial documentation)
+- [Nikhil Nigade](https://github.com/dezinezync) (core module)
+- [Selva Ganesh](https://github.com/selvagsz) (initial documentation)
 
 ### Todos
 - [x] Use native `Promise`  
