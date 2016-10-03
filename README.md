@@ -1,3 +1,7 @@
+# Update
+This repo has been superseded by  Razorpay's own NodeJS SDK  which can be found here. https://github.com/razorpay/razorpay-node  
+This  module will continue to work but will not longer be updated with new features. Nonetheless, I'll continue  supporting it via bug fixes , etc. 
+
 # RazorNode
 
 A dependancy free NodeJS SDK and Webhooks Handler for Razorpay's API
